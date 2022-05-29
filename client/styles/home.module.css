@@ -1,7 +1,12 @@
 .hero_section{
-
+    position: relative;
+    overflow: hidden;
+    height: 45rem;
 }
-
+.hero_section > h1 {
+    margin: 0 0 0 60rem;
+    font-size: 3.4rem;
+}
 .book_btn{
-    
+    color: red;
 }

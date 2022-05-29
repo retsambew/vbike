@@ -1,15 +1,44 @@
+.container::before{
+    content: '';
+    position: absolute;
+    background:  url(https://s1.cdn.autoevolution.com/images/news/gallery/juggernaut-hd-duo-e-bike-needs-no-intro-the-name-tells-you-all-you-need-to-know_1.jpg) no-repeat center center/cover;
+    margin: -1rem;
+    width: 96.99rem;
+    height: 50rem;
+    z-index: -1;
+    opacity: 0.85;
+    overflow: hidden;
+}
 .container{
-
+    display: flex;
+    justify-content: space-between;
+    outline: 1px solid whitesmoke;
 }
 
 .logo{
     
 }
 
-.nav{
-
+.nav > ul {
+   display: flex;
 }
-
+.nav > ul > li {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0px 2rem;
+    /* font-weight: bold; */
+}
+.nav > ul > li:hover {
+    opacity: 0.9;
+    margin: 2px;
+    font-weight: bold;
+    color: black !important;
+}
+.nav > ul:hover > li {
+    opacity: 0.9;
+    margin: 2px;
+    color: rgb(52, 52, 52);
+}
 .btn{
 
 }
