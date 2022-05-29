@@ -2,7 +2,9 @@ import styles from '../../styles/home.module.css';
 
 const Use = () => {
   return (
-    <div>
+    <div className={styles.useContainer}>
+        <div className={styles.topDiv}></div>
+        <div className={styles.infoSection}>
         <h1>How it works</h1>
 
         {/* image */}
@@ -15,6 +17,8 @@ const Use = () => {
 
         <h2>End the ride responsibly</h2>
         <p>To end your trip, park your bicycle at any nearby destination stop.</p>
+        </div>
+        <div className={styles.endDiv}></div>
     </div>
   )
 }

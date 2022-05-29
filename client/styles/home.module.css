@@ -50,3 +50,24 @@
     height: 20rem;
     margin: 4rem 0 0 10rem;
 }
+
+.useContainer{
+    background-color: greenyellow;
+}
+
+.topDiv{
+    margin: 5vh 0vh 0vh;
+    height: 5vh;
+    background-color: greenyellow;
+    transform: rotateZ(-3.2deg) translateY(5vh);
+}
+
+.infoSection{
+    z-index: 2;
+}
+
+.endDiv{
+    height: 2vh;
+    background-color: greenyellow;
+    transform: rotateZ(3.2deg) translateY(-7vh);
+}
