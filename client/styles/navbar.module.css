@@ -1,10 +1,10 @@
 .container::before{
     content: '';
     position: absolute;
-    background:  url(https://s1.cdn.autoevolution.com/images/news/gallery/juggernaut-hd-duo-e-bike-needs-no-intro-the-name-tells-you-all-you-need-to-know_1.jpg) no-repeat center center/cover;
-    margin: -1rem;
+    background:  linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) ), url(https://s1.cdn.autoevolution.com/images/news/gallery/juggernaut-hd-duo-e-bike-needs-no-intro-the-name-tells-you-all-you-need-to-know_1.jpg) no-repeat center center/cover;
+    margin: 0;
     width: 96.99rem;
-    height: 50rem;
+    height: 50.9rem;
     z-index: -1;
     opacity: 0.85;
     overflow: hidden;
@@ -13,10 +13,13 @@
     display: flex;
     justify-content: space-between;
     outline: 1px solid whitesmoke;
+    height: 3.8rem;
+    z-index: 1;
+    color: whitesmoke;
 }
 
 .logo{
-    
+    width: 10rem;
 }
 
 .nav > ul {
@@ -39,6 +42,12 @@
     margin: 2px;
     color: rgb(52, 52, 52);
 }
-.btn{
-
+.btn > button {
+    background: transparent;
+    height: 2.56rem;
+    width: 8rem;
+    font-size: 1.3rem;
+    border-radius: 3rem;
+    margin: 0.6rem 7rem 0 0 ;
+    cursor: pointer;
 }
