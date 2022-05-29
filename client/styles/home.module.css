@@ -51,23 +51,21 @@
     margin: 4rem 0 0 10rem;
 }
 
+
+/* Use Section  */
+
 .useContainer{
     background-color: greenyellow;
+    margin: 6rem 2rem 0 3rem;
 }
 
 .topDiv{
-    margin: 5vh 0vh 0vh;
-    height: 5vh;
+    height: 7vh;
     background-color: greenyellow;
-    transform: rotateZ(-3.2deg) translateY(5vh);
+    transform: rotateZ(-2.3deg) translateY(-3.3vh);
 }
-
-.infoSection{
-    z-index: 2;
-}
-
 .endDiv{
-    height: 2vh;
+    height: 9vh;
     background-color: greenyellow;
-    transform: rotateZ(3.2deg) translateY(-7vh);
+    transform: rotateZ(2.7deg) translateY(4.5vh);
 }
