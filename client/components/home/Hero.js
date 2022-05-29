@@ -1,11 +1,11 @@
-import styles from '../../styles/home.module.css';
+import React from react;
 
 const Hero = () => {
   return (
-    <div className={styles.hero_section}>
+    <div classname="hero_section">
         <h1>Pedal around with us!</h1>
         <h2>V-Bike brings to you a sharable, sustainable and affordable mobility solution.</h2>
-        <button className={styles.book_btn}>Book A Ride</button>
+        <button className="book_btn">Book A Ride</button>
     </div>
   )
 }

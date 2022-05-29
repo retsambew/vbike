@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from '../../styles/book.module.css';
 
 const Book = () => {
   return (

@@ -1,10 +1,10 @@
-import styles from '../../styles/home.module.css';
+import React from "react"
 
 const Use = () => {
   return (
-    <div className={styles.useContainer}>
-        <div className={styles.topDiv}></div>
-        <div className={styles.infoSection}>
+    <div className="useContainer">
+        <div className="topDiv"></div>
+        <div className="infoSection">
         <h1>How it works</h1>
 
         {/* image */}
@@ -18,7 +18,7 @@ const Use = () => {
         <h2>End the ride responsibly</h2>
         <p>To end your trip, park your bicycle at any nearby destination stop.</p>
         </div>
-        <div className={styles.endDiv}></div>
+        <div className="endDiv"></div>
     </div>
   )
 }
