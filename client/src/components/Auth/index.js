@@ -1,7 +1,7 @@
 import React from "react";
 import '../../styles/auth.css'
 
-const Auph = () => {
+const Auth = () => {
     return (
         <div className="container_auth">
             <form method="post">
@@ -39,4 +39,4 @@ const Auph = () => {
     )
 }
 
-export default Auph;
+export default Auth;

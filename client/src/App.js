@@ -5,7 +5,7 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Home from './components/home';
 import Navbar from './components/navbar';
 import Book from './components/book'
-import Auph from './components/Auph'
+import Auth from './components/Auth'
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/book' element={<Book/>}/>
-          <Route exact path='/auth' element={<Auph/>}/>
+          <Route exact path='/auth' element={<Auth/>}/>
         </Routes>
       </Router>
     </div>

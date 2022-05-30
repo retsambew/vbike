@@ -1,0 +1,120 @@
+.container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .infoSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .infoSection h3 {
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  
+  
+.ourteam{
+  display: flex;
+  justify-content: space-between;
+}
+
+  .cardContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 18rem;
+    height: 25rem;
+    border-radius: 0.4rem;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .card:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background: rgba(255, 255, 255, 0.288);
+  }
+  .card:hover h3 {
+    display: block;
+  }
+  .card:hover h4 {
+    display: block;
+  }
+  
+  .card a i:hover {
+    transform: scale(1.1);
+  }
+  
+  .card h3 {
+    font-family: "Montserrat";
+    display: none;
+    position: relative;
+    z-index: 2;
+    font-weight: 650;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .card:hover .social {
+    display: flex;
+  }
+  
+  .card h4 {
+    position: relative;
+    z-index: 2;
+    display: none;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: white;
+  }
+  
+  .img1 {
+    background: url("../assets/Naman.jpg") center center no-repeat;
+    background-size: contain;
+    text-align: center;
+  }
+  
+  .img2 {
+    background: url("../assets/shristi.jpeg") center center no-repeat;
+    background-size: contain;
+  }
+  
+  .img3 {
+    background: url("../assets/nayan.jpeg") center center no-repeat;
+    background-size: contain;
+  }
+
+  .img4 {
+    background: url("../assets/vedansh.jpeg") center center no-repeat;
+    background-size: contain;
+  }
+  
+  .social {
+    justify-self: flex-start;
+    align-self: flex-start;
+    display: none;
+    justify-content: space-evenly;
+    width: 30%;
+    position: absolute;
+    top: 0.8rem;
+    right: 0;
+    font-size: 2.2rem;
+    color: white;
+  }

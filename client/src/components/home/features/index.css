@@ -1,0 +1,37 @@
+.caro-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 8rem;
+}
+
+.caro-subcontainer{
+    width: 60vw;
+    height: 80vh;
+    border-radius: 2%;
+    background-color: white;
+    box-shadow: 10px 15px 10px rgba(255, 255, 255, 0.6);
+    overflow: hidden;
+    letter-spacing: 0.1rem;
+}
+
+.caro-subcontainer h1{
+    padding-left: 5vw;
+    padding-bottom: 3vh;
+    font-size: 2.5rem;
+}
+
+.caro-icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.caro-icon i{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 3px;
+    margin-right: 6vw;
+}
