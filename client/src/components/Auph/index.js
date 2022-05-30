@@ -1,11 +1,10 @@
 import React from "react";
 import '../../styles/auth.css'
-
 const Auph = () => {
-    return (
+    return(
         <div className="container_auth">
             <form method="post">
-                <div className="form">
+                <div className="login_form">
 
                     <label>Enter Your Username</label>
                     <input type="text"></input>
@@ -16,11 +15,11 @@ const Auph = () => {
             </form>
             <div className="buttons">
                 <button className="LogIn">Log In</button>
-                <button className="Create">Create New Account?</button>
+                <button className="Create" >Create New Account?</button>
             </div>
 
-            <div className="signup_form">
             <form method = "post">
+            <div className="signup_form" >
                 <label>Enter Username</label>
                 <input type="text"></input>
                 <label>Enter password</label>
@@ -33,10 +32,9 @@ const Auph = () => {
                     <button>Sign UP</button>
                     <button>Log In</button>
                 </div>
-            </form>
             </div>
+            </form>
         </div>
-    )
-}
-
+)
+    }
 export default Auph;

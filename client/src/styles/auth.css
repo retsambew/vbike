@@ -6,20 +6,20 @@
     background:url(../../public/Harvey.jpg) no-repeat center center/cover;
     z-index: -1;
 }
-.form {
+.login_form {
     display: flex;
     flex-direction: column;
     height: 35rem;
     width: 100rem;
     justify-content: center;
-    align-items: center;
+    margin-left: 50rem;
 }
-.form > label {
+.login_form > label {
     font-size: 1.3rem;
     color: rgb(236, 236, 236);
     margin-top: 2rem;
 }
-.form > input {
+.login_form > input {
     width: 22rem;
     padding: 0.5rem 2rem;
     font-size: 1.2rem;
@@ -32,7 +32,7 @@
     margin: -8rem 0 0 35rem;
 }
 .buttons > button {
-    margin: 0 0 0 3rem;
+    margin: 0 0 0 13rem;
     cursor: pointer;
 }
 .LogIn{
@@ -62,5 +62,31 @@
 }
 .signup_form{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin: -20rem 0 0 10rem ;
+}
+.signup_form > input {
+    width: 30rem;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid white;
+}
+.signup_form > label {
+    color: white;
+    font-size: 1.2rem;
+    margin: 1rem 0 0 0;
+}
+.buttons2 > button{
+    width: 10rem;
+    border-radius: 2rem;
+    padding: 0.5rem 0.4rem;
+    font-size: 1.2rem;
+    border: 0px;
+    margin: 3rem 0 0 4rem;
+}
+.button2 > button:hover{
+    color: black !important;
+    background-color: white !important;
+    margin-top: 2px;
+    margin-right: 3px;
 }
