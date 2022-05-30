@@ -1,5 +1,6 @@
+
 export const login = (req,res,next) => {
-    res.render('login')
+    res.send('login')
 }
 
 export const logout = (req,res) => {
