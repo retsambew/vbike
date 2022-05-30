@@ -1,4 +1,4 @@
-import styles from '../../styles/home.module.css';
+import React from "react"
 
 const Features = () => {
   return (

@@ -1,11 +1,46 @@
-import logo from './logo.svg';
+
 import './App.css';
-export function App() {
+import './styles/home.css'
+
+import Home from './components/home';
+import Navbar from './components/navbar';
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div>
+      <Navbar/>
+      <Home/>
+      
+    </div>
+  );
 }
+
+
+// // Get the modal
+// var modal = document.getElementById("myModal");
+
+// // Get the button that opens the modal
+// var btn = document.getElementById("myBtn");
+
+// // Get the <span> element that closes the modal
+// var span = document.getElementsByClassName("close")[0];
+
+// // When the user clicks the button, open the modal 
+// btn.onclick = function() {
+//   modal.style.display = "block";
+// }
+
+// // When the user clicks on <span> (x), close the modal
+// span.onclick = function() {
+//   modal.style.display = "none";
+// }
+
+// // When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// }
+
 
 export default App;

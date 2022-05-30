@@ -1,6 +1,4 @@
 .hero_section{
-    position: relative;
-    overflow: hidden;
     height: 45rem;
     color: rgba(231, 231, 231, 0.925);
 }
@@ -56,9 +54,12 @@
 
 .useContainer{
     background-color: greenyellow;
-    margin: 6rem 2rem 0 3rem;
+    margin: 4rem 2rem 0 3rem;
 }
-
+.useContainer > h1 {
+    text-align: center;
+    font-size: 4rem;
+}
 .topDiv{
     height: 7vh;
     background-color: greenyellow;
@@ -68,4 +69,16 @@
     height: 9vh;
     background-color: greenyellow;
     transform: rotateZ(2.7deg) translateY(4.5vh);
+}
+.infoSection{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+.steps > h2{
+    text-align: center;
+}
+
+.steps > p{
+    width: 25rem;
 }
