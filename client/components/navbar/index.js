@@ -1,4 +1,6 @@
 import React from "react";
+import '../../styles/navbar.css'
+
 const Navbar = () => {
   return (
     <div className="container">
@@ -15,7 +17,8 @@ const Navbar = () => {
         </div>
 
         <div className="btn">
-          <button>Login</button>
+          <button id="myBtn"> <a href="../../components/Auph/Auph.js"> Login </a></button>
+            
         </div>
     </div>
   )

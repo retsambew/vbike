@@ -1,11 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-export function App() {
+import './styles/home.css'
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+
+import Home from './components/home';
+import Navbar from './components/navbar';
+import Book from './components/book'
+import Auph from './components/Auph'
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div>
+      <Router>
+        <Navbar/>
+        <Routes>
+          <Route exact path='/' element={<Home/>}/>
+          <Route exact path='/book' element={<Book/>}/>
+          <Route exact path='/auth' element={<Auph/>}/>
+        </Routes>
+      </Router>
+    </div>
+  );
 }
+
+
+
 
 export default App;
