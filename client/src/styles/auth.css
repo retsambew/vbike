@@ -60,3 +60,7 @@
     font-size: 1rem;
     opacity: 0.8;
 }
+.signup_form{
+    display: flex;
+    flex-direction: row;
+}
