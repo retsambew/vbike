@@ -20,50 +20,19 @@ const Team = () => {
               <i className="fab fa-linkedin-in" />
             </a> */}
           </div>
-          <h3 className='fac_name'>Praveen Kumar Shukla</h3>
-          <h4>Faculty</h4>
+          <h3 className='fac_name'>Naman Arora</h3>
         </div>
 
         <div className='card img2'>
-          <div className='social'>
-            {/* <a href="#"><i className="fab fa-facebook-f" /></a> */}
-            <a href="https://www.instagram.com/harshpailkar/">
-              <i className="fab fa-instagram" />
-            </a>
-            <a href="https://www.linkedin.com/in/harsh-pailkar-388aa21ba/">
-              <i className="fab fa-linkedin-in" />
-            </a>
-          </div>
-          <h3>Harsh</h3>
-          <h4>President</h4>
+          <h3>Shristi Badhwar</h3>
         </div>
 
         <div className='card img3'>
-          <div className='social'>
-            {/* <a href="#"><i className="fab fa-facebook-f" /></a> */}
-            <a href="https://www.instagram.com/devanshuyadav16/">
-              <i className="fab fa-instagram" />
-            </a>
-            <a href="https://www.linkedin.com/in/devanshu-yadav-1635991b4/">
-              <i className="fab fa-linkedin-in" />
-            </a>
-          </div>
-          <h3>Devanshu</h3>
-          <h4>Vice President</h4>
+          <h3>Nayan Agrawal</h3>
         </div>
 
         <div className='card img4'>
-          <div className='social'>
-            {/* <a href="#"><i className="fab fa-facebook-f" /></a> */}
-            <a href="https://www.instagram.com/devanshuyadav16/">
-              <i className="fab fa-instagram" />
-            </a>
-            <a href="https://www.linkedin.com/in/devanshu-yadav-1635991b4/">
-              <i className="fab fa-linkedin-in" />
-            </a>
-          </div>
-          <h3>Devanshu</h3>
-          <h4>Vice President</h4>
+          <h3>Vedansh Nigam</h3>
         </div>
       </div>
     </div>
