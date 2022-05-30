@@ -5,6 +5,7 @@ import Use from './Use.js'
 // import Bikes from './Bikes.js'
 import Reviews from './Reviews.js'
 import Team from './Team.js'
+import "../styles/home.css"
 
 const Home = () => {
   return (

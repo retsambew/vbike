@@ -1,14 +1,12 @@
-import Image from 'next/image'
-import styles from '../../styles/navbar.module.css';
-
+import React from "react";
 const Navbar = () => {
   return (
-    <div className={styles.container}>
-        <div className={styles.logo}>
+    <div className="container">
+        <div className="logo">
           {/* <a><Image src='/' width='10px' height='10px'></Image></a> */}
         </div>
 
-        <div className={styles.nav}>
+        <div className="nav">
           <ul>
             <li><a href='#'> Home </a></li>
             <li><a href='#'> Rental </a></li>
@@ -16,7 +14,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className={styles.btn}>
+        <div className="btn">
           <button>Login</button>
         </div>
     </div>
