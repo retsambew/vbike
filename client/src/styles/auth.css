@@ -1,0 +1,62 @@
+.container_auth::before{
+    content: '';
+    position: absolute;
+    height: 50rem;
+    width: 300rem;
+    background:url(../../public/Harvey.jpg) no-repeat center center/cover;
+    z-index: -1;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 100rem;
+    justify-content: center;
+    align-items: center;
+}
+.form > label {
+    font-size: 1.3rem;
+    color: rgb(236, 236, 236);
+    margin-top: 2rem;
+}
+.form > input {
+    width: 22rem;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    background: transparent;
+    border: 0px;
+    border-bottom:1px solid white;
+}
+.buttons{
+    display: flex;
+    margin: -8rem 0 0 35rem;
+}
+.buttons > button {
+    margin: 0 0 0 3rem;
+    cursor: pointer;
+}
+.LogIn{
+    width: 10rem;
+    border-radius: 2rem;
+    padding: 0.5rem 0.4rem;
+    font-size: 1.2rem;
+    border: 0px;
+}
+.LogIn:hover{
+    color: black !important;
+    background-color: white !important;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+.Create {
+    background: none;
+    color: white;
+    border: 0px;
+    font-size: 1.1rem;
+    word-spacing: 0.2rem;
+    text-decoration: underline;
+}
+.Create:hover{
+    font-size: 1rem;
+    opacity: 0.8;
+}

@@ -1,20 +1,22 @@
 import React from "react";
+import '../../styles/auth.css'
 
 const Auph = () => {
     return (
-        <div>
-            <button id="myBtn">Open Modal</button>
-            <div id="myModal" className="modal">
+        <div className="container_auth">
+            <form method="post">
+                <div className="form">
 
-                <div className="modal-content">
-                    <span className="close">&times;</span>
-                    <form >
-                        <label typeof="text" placeholder="Username"></label>
-                        <label typeof="password" placeholder="********"></label>
-                    </form>
-                    <p>Crteate an account ? </p>
+                    <label>Enter Your Username</label>
+                    <input typeof="text"></input>
+                    <label> Enter Your Password </label>
+
+                    <input typeof="password"></input>
                 </div>
-
+            </form>
+            <div className="buttons">
+                <button className="LogIn">Log In</button>
+                <button className="Create">Create New Account?</button>
             </div>
         </div>
     )
