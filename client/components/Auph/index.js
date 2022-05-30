@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+const Auph = () => {
     return (
         <div>
             <button id="myBtn">Open Modal</button>
@@ -8,7 +8,7 @@ const Footer = () => {
 
                 <div className="modal-content">
                     <span className="close">&times;</span>
-                    <form>
+                    <form >
                         <label typeof="text" placeholder="Username"></label>
                         <label typeof="password" placeholder="********"></label>
                     </form>
@@ -20,4 +20,4 @@ const Footer = () => {
     )
 }
 
-export default Footer;
+export default Auph;

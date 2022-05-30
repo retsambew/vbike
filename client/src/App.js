@@ -1,46 +1,28 @@
-
 import './App.css';
 import './styles/home.css'
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
 import Home from './components/home';
 import Navbar from './components/navbar';
+import Book from './components/book'
+import Auph from './components/Auph'
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Home/>
-      
+      <Router>
+        <Navbar/>
+        <Routes>
+          <Route exact path='/' element={<Home/>}/>
+          <Route exact path='/book' element={<Book/>}/>
+          <Route exact path='/auth' element={<Auph/>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }
 
 
-// // Get the modal
-// var modal = document.getElementById("myModal");
-
-// // Get the button that opens the modal
-// var btn = document.getElementById("myBtn");
-
-// // Get the <span> element that closes the modal
-// var span = document.getElementsByClassName("close")[0];
-
-// // When the user clicks the button, open the modal 
-// btn.onclick = function() {
-//   modal.style.display = "block";
-// }
-
-// // When the user clicks on <span> (x), close the modal
-// span.onclick = function() {
-//   modal.style.display = "none";
-// }
-
-// // When the user clicks anywhere outside of the modal, close it
-// window.onclick = function(event) {
-//   if (event.target == modal) {
-//     modal.style.display = "none";
-//   }
-// }
 
 
 export default App;
