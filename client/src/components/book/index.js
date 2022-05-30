@@ -8,7 +8,7 @@ const Book = () => {
 
         <div>
           <div>
-            <img src='../public/mtb-bike-630x396.png'></img>
+            <img src="../../pub;"></img>
             <h2></h2>
           </div>
         </div>
