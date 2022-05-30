@@ -10,18 +10,18 @@ const Book = () => {
         </div>
 
         <div className='bike'>
-          <h2>Regular Bike</h2>
+          <h2>Mountain Bike</h2>
           <div className='flex'>
             <p>For Hours</p>
-            <p>Rs. 30</p>
+            <p>Rs. 25</p>
           </div>
           <div className='flex'>
             <p>For Day </p>
-            <p>Rs. 500</p>
+            <p>Rs. 400</p>
           </div>
           <div className='flex'>
             <p>For Months</p>
-            <p>Rs. 3000</p>
+            <p>Rs. 1800</p>
           </div>
         </div>
         <div >
@@ -45,18 +45,18 @@ const Book = () => {
           <img src=""></img>
         </div>
         <div className='bike'>
-          <h2>MTB Bike</h2>
+          <h2>Classic Bike</h2>
           <div className='flex'>
             <p>For Hours</p>
-            <p>Rs. 30</p>
+            <p>Rs. 20</p>
           </div>
           <div className='flex'>
             <p>For Day </p>
-            <p>Rs. 500</p>
+            <p>Rs. 300</p>
           </div>
           <div className='flex'>
             <p>For Months</p>
-            <p>Rs. 3000</p>
+            <p>Rs. 1200</p>
           </div>
         </div>
         <div >
@@ -80,18 +80,18 @@ const Book = () => {
           <img src=""></img>
         </div>
         <div className='bike'>
-          <h2>Mountain Bike</h2>
+          <h2>Regular Bike</h2>
           <div className='flex'>
             <p>For Hours</p>
-            <p>Rs. 30</p>
+            <p>Rs. 15</p>
           </div>
           <div className='flex'>
             <p>For Day </p>
-            <p>Rs. 500</p>
+            <p>Rs. 200</p>
           </div>
           <div className='flex'>
             <p>For Months</p>
-            <p>Rs. 3000</p>
+            <p>Rs. 800</p>
           </div>
         </div>
         <div >
