@@ -6,6 +6,7 @@ import dotenv from 'dotenv';
 import passport from 'passport';
 
 import Auth from './routes/auth.js';
+import Booking from './routes/booking.js';
 
 const app = express();
 
@@ -14,6 +15,7 @@ app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }))
 app.use(cors());
 
 app.use(Auth)
+app.use('/book',Booking)
 app.get('/',(req,res)=>{
     res.json("Server Running...")
 })
