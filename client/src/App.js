@@ -6,6 +6,7 @@ import Home from './components/home';
 import Navbar from './components/navbar';
 import Book from './components/book'
 import Auph from './components/Auph'
+import Wallet from './components/wallet';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/book' element={<Book/>}/>
           <Route exact path='/auth' element={<Auph/>}/>
+          <Route exact path='/wallet' element={<Wallet/>}/>
         </Routes>
       </Router>
     </div>
