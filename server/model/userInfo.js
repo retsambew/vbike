@@ -1,11 +1,13 @@
 import mongoose from "mongoose";
 
 const userSchema = mongoose.Schema({
-    username: String,
+    username: {
+        type:String,
+        unique:true
+    },
     password: String,
     phone: Number,
     regno: String,   //Registeration number
-    history: [String],  // Ride History  
 })
 
 var userInfo = mongoose.model('userInfo',userSchema);
