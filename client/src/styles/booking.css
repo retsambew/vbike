@@ -1,0 +1,83 @@
+.container_book::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 62rem;
+    width: 220rem;
+    margin: -20rem 0 0 -80rem;
+    z-index: -1;
+}
+.container_book{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+.bike > h2 {
+    font-size: 2.5rem;
+}
+.bike_img{
+    width: 19rem;
+    background-color: white;
+    color: black;
+    padding: 3rem 3rem;
+}
+#img_1::after{
+    content: '';
+    position: absolute;
+    background: url(../../../client/public/mtb.png) no-repeat center center/cover;
+    height: 13rem;
+    width: 18rem;
+    margin: -3rem 0 0 0rem;
+}
+#img_2::after{
+    content: '';
+    position: absolute;
+    background: url(../../../client/public/electric-bike.jpg) no-repeat center center/cover;
+    height: 13rem;
+    width: 18rem;
+    margin: -3rem 0 0 0rem;
+}
+#img_3::after{
+    content: '';
+    position: absolute;
+    background: url(../../../client/public/hybrid-bike-630x420.jpg) no-repeat center center/cover;
+    height: 13rem;
+    width: 18rem;
+    margin: -3rem 0 0 0rem;
+}
+.bike{
+    margin-top: 11rem;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin: -1rem -3em;
+}
+.flex > p {
+    font-size: 1.1rem;
+}
+
+.container_book > div > div >  button {
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    width: 12rem;
+    padding: 0.3rem 0.3rem;
+    margin: 1rem 0 0 -1rem;
+    margin: 2rem 0 0 3.6rem;
+    border-radius: 2rem;
+}
+.dropdown{
+    display: flex;
+}
+.dropdown > label{
+    font-size: 1.2rem;
+    margin-top: 1.7rem;
+    font-weight: bold;
+}
+.dropdown > select{
+    margin: 2rem 0 0 1.3rem;
+    font-size: 1.1rem;
+    padding: 0.3rem 0.2rem;
+}

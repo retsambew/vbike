@@ -18,7 +18,21 @@
 }
 
 .logo{
-    width: 10rem;
+    width: 15rem;
+}
+.logo > a {
+    color: black;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 8rem 0 0 8rem ;
+}
+.logo::before {
+    content: '';
+    position: absolute;
+    background: url(../../public/logo.png) no-repeat center center/cover;
+    height: 5rem;
+    width: 7rem;
+    margin: -1rem 0 0 2rem;
 }
 
 .nav > ul {
@@ -54,4 +68,8 @@
     border-radius: 3rem;
     margin: 0.6rem 7rem 0 0 ;
     cursor: pointer;
+}
+.btn > button > a {
+    color: black;
+    text-decoration: none;
 }
